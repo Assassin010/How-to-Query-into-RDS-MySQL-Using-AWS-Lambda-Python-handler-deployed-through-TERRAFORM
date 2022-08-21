@@ -2,9 +2,9 @@ import json
 import pymysql
 
 
-RDS_endpoint = "myrdsinstance.cdegnvsebaim.us-east-1.rds.amazonaws.com"
-UserName = "mydatabaseuser"
-Password = "mydatabasepassword"
+RDS_endpoint = "put your endpoint here"
+UserName = "put your username here"
+Password = "put your password here"
 DatabaseName = "StudentDB"
 
 connectionString = pymysql.connect(RDS_endpoint, user= UserName, passwd= Password, db= DatabaseName)
