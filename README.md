@@ -9,6 +9,11 @@ Note: It is necessary to download also the MySql GUI Tool, To download it, go to
 
 Clone the code to your code editor with git clone command git clone https://github.com/Assassin010/How-to-Query-into-RDS-MySQL-Using-AWS-Lambda-Python-handler-deployed-through-TERRAFORM
 
+Note: Regarding RDS PASSWORD AND USERNAME, you can find them in variables.tf file: on block => variable "db_password" and variable "username" 
+
+you can keep the same or change them just after cloning this repository to your local machine by changing their default values
+
+
 Deployment Steps: In your terminal Run these commands below (-)
 
 1.Terraform init
